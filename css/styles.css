@@ -1,8 +1,27 @@
-p{
-	color:red;
-	font-family: "Arial" sans-serif;
+body {
+  margin:10px;
 }
-body{
-	background-color: #ffff31;
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.about-me{
+	padding: 10px;
+	color: #410404;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.main-section{
+	padding: 10px;
 	margin: 10px;
+	color:lightgray;
+	background: #623784;
+	font-family: 'Robotic'
 }
