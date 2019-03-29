@@ -12,9 +12,56 @@ p {
   font-size: 20px;
 }
 
+.row{
+	display: flex;
+	flex-flow:wrap;
+}
+
+.col-1, .col-2,.col-3, .col-4, .col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-11{
+	box-sizing: border-box;
+	padding:0 8px;
+}
+.col-1{flex-basis:8.3333%;}
+.col-2{flex-basis:16.6667%;}
+.col-3{flex-basis:24.9999%;}
+.col-4{flex-basis:33.33333%;}
+.col-5{flex-basis:33.33333%;}
+.col-6{flex-basis:33.33333%;}
+.col-7{flex-basis:33.33333%;}
+.col-8{flex-basis:33.33333%;}
+.col-9{flex-basis:33.33333%;}
+.col-10{flex-basis:33.33333%;}
+.col-11{flex-basis:33.33333%;}
+.col-12{flex-basis:100%;}
+
+.card{
+	background-color: lightblue;
+	border:1px solid rgba(72,72,72,0.2);
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.container{
+	margin:0 auto;
+	width:976px;
+	/*Второе тоже: мы делаем класс .container с шириной 992 - 16 пикселей. Что? Откуда эти значения?
+
+992 пикселя это константа — в последнее время дизайнеры верстают десктопные макеты именно с такой шириной,
+
+16 пикселей это паддинги слева и справа у колонок.
+
+992-16=976 пикселей должна быть ширина нашего контейнера.
+
+*/
+}
+
+.item{
+	order: <integer>;
+}
+
 .about-me{
 	padding: 10px;
-	color: #410404;
+	border-bottom: 2px solid blue;
 	font-family: "Times New Roman", Times, serif;
 }
 
@@ -25,3 +72,42 @@ p {
 	background: #623784;
 	font-family: 'Robotic'
 }
+
+/*
+
+
+This defines the alignment along the main axis. It helps distribute extra free space 
+left over when either all the flex items on a line are inflexible, or are flexible 
+but have reached their maximum size. 
+It also exerts some control over the alignment of items when they overflow the line.
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+}
+
+.item{
+	align-self:auto | flex-start | flex-end | center | baseline | stretch;
+}
+
+.itemP
+justify-content: flex-start | flex-end | center | space-between | space-around;
+
+
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+
+  row (default): left to right in ltr; right to left in rtl
+	row-reverse: right to left in ltr; left to right in rtl
+	column: same as row but top to bottom
+	column-reverse: same as row-reverse but bottom to top
+
+
+	.item {
+  flex-grow: <number>;  default 0 
+}
+
+By default, flex items will all try to fit onto one line. 
+You can change that and allow the items to wrap as needed with this property.
+.container{
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+*/
