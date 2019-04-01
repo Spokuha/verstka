@@ -4,18 +4,19 @@
 	<meta charset="utf-8">
 	<title>My first page</title>
 	<link rel="stylesheet" href="./css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/normalize.css@7.0.0/normalize.css">
 
 </head>
 <body>
 	<header class="container">
 		<div class="row">
-			<h1 class="org-name col-6">
-				<span class="black-eats">UBER</span> <span class="green-eats">EATS</span>
-			</h1>
-			<div>
-				<button class="signin-button header-button" type="button">Sign in</button>
-				<button class="register-button header-button" type="button">Register</button>
+			<div class="col-6" style="display: flex; padding-left: 8px;">
+				<img src="img/ubereats/stores/logo.svg">
+			</div>
+			<div class="col-6 header-button">
+				<button class="signin-button" type="button">Sign in</button>
+				<button class="register-button" type="button">Register</button>
 			</div>
 		</div>
 		
@@ -40,37 +41,46 @@
 					<p>To</p>
 					<button class="to-button" type="button">ul. Bolshaya Dmitrovka,22</button>
 				</div>
+
 				<div class="col-12">
-					<h2 class="restaurants-name">Moscow Restaurants</h2>
-				</div>
-				<div class="col-12">
-					<div class="main-image">
-						<img src="img/ubereats/stores/1-4.png">
+					<div class="food-menu">
+						<div>
+							<h2 class="restaurants-name">Moscow Restaurants</h2>
+						</div>
+
+						<div class="col-12">
+							<div class="main-image">
+								<img src="img/ubereats/stores/1-4.png">
+							</div>
+							<div class="timed-class">
+								<h3>Макдональдс - Газетный</h3>
+								<p>РР Бургеры</p>
+								<p>25 - 35 Min</p>
+							</div>
+						</div>
+
+						<div class="col-12">
+							<h3></h3>
+							<p></p>
+							<p></p>
+						</div>
+
+						<div class="col-12">
+							<h3></h3>
+							<p></p>
+							<p></p>
+						</div>
+
+						<div class="col-12">
+							<h3></h3>
+							<p></p>
+							<p></p>
+						</div>
 					</div>
-					<div class="timed-class">
-						<h3>Макдональдс - Газетный</h3>
-						<p>РР Бургеры</p>
-						<p>25 - 35 Min</p>
-					</div>
-
-				</div>
-				<div class="col-12">
-					<h3></h3>
-					<p></p>
-					<p></p>
 				</div>
 
-				<div class="col-12">
-					<h3></h3>
-					<p></p>
-					<p></p>
-				</div>
 
-				<div class="col-12">
-					<h3></h3>
-					<p></p>
-					<p></p>
-				</div>
+
 
 			</div>
 
@@ -86,8 +96,38 @@
 					<option value="eng">English</option>
 					<option value="rus">Russian</option>
 				</select>
+				<div class="hash-tag">
+					<p><span style="color:#49A144">#</span>UberEats</p>
+				</div>
+				<div class="footer-info-img">
+					<img src="img/ubereats/ic/24/social/facebook.svg">
+					<img src="img/ubereats/ic/24/social/twitter.svg">
+					<img src="img/ubereats/ic/24/social/instagram.svg">
+				</div>
+
+				<div class="footer-info">
+					<p>About UberEats</p>
+					<p>Become a Delivery Partner</p>
+					<p>Become a Restaurant Partner</p>
+					<p>See all sites</p>
+					<p>Pricing</p>
+					<p>Help</p>
+					<p>FAQs</p>
+				</div>
+
+				<div class="footer-row-center">
+					<img style="margin-right:10px" src="img/ubereats/stores/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png">
+					<img style="margin-left:10px" src="img/ubereats/stores/en_badge_web_generic-cf6dad406f-2.png">
+				</div>
 			</main>
-			<footer>
+			<footer style="font-size: 11px">
+				<p>&copy; 2017 Uber Technologies Inc.</p>
+				<p>Privacy</p>
+				<p>Terms</p>
+				<div style="display: flex; justify-content: flex-end;">
+					<button style="background: #59BD5A; border:1px solid #59BD5A; border-radius: 2px; display: flex; justify-content: center; align-items: center; width: 64px;
+height: 64px;"> <img src="img/ubereats/stores/arrow.svg"> </button>
+				</div>
 			</footer>
 		</div>
 

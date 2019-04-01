@@ -1,3 +1,21 @@
+.container {
+	margin: 0 auto;
+	width:976px;
+
+
+	/*Необходим для фиксации ширины контента*/
+
+	/*Второе тоже: мы делаем класс .container с шириной 992 - 16 пикселей. Что? Откуда эти значения?
+
+992 пикселя это константа — в последнее время дизайнеры верстают десктопные макеты именно с такой шириной,
+
+16 пикселей это паддинги слева и справа у колонок.
+
+992-16=976 пикселей должна быть ширина нашего контейнера.
+
+*/
+}
+
 html {
 	box-sizing: border-box;
 	background: rgba(240,240,240,1);
@@ -47,6 +65,21 @@ card
 .row {
 	display: flex;
 	flex-flow:wrap;
+	justify-content: space-between;
+}
+.footer-row-center {
+	display: flex;
+	flex-flow:wrap;
+	justify-content: center;
+	border-bottom: 1px solid lightgray;
+	border-top: 1px solid lightgray;
+	padding: 10px 0;
+}
+
+.food-menu {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .col-1, .col-2,.col-3, .col-4, .col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-11 {
@@ -97,27 +130,11 @@ card
 }
 
 .card-search {
-	justify-content: flex-start;
-	border-bottom: 2px solid lightgray;
+
+	border-bottom: 1px solid lightgray;
 }
 
-.container {
-	margin: 0 auto;
-	width:976px;
 
-
-	/*Необходим для фиксации ширины контента*/
-
-	/*Второе тоже: мы делаем класс .container с шириной 992 - 16 пикселей. Что? Откуда эти значения?
-
-992 пикселя это константа — в последнее время дизайнеры верстают десктопные макеты именно с такой шириной,
-
-16 пикселей это паддинги слева и справа у колонок.
-
-992-16=976 пикселей должна быть ширина нашего контейнера.
-
-*/
-}
 
 .item {
 	order: <integer>;
@@ -158,21 +175,30 @@ header .row {
 }
 
 .header-button {
-	height:70px;
-	width:110px;
-	margin:15px 20px;
-	border: 2px solid lightgray;
-	border-radius: 5px;
+	display: flex;
+	justify-content: flex-end;
+
 }
 
 .register-button {
-background-color: black;
-color:white;
-margin-left:-6px;
+	background-color: black;
+	color:white;
+
+	height:70px;
+	width:110px;
+	margin:15px 5px;
+	border: 2px solid lightgray;
+	border-radius: 5px;
 }
 .signin-button {
-background-color: white;
-color:black;
+	background-color: white;
+	color:black;
+
+	height:70px;
+	width:110px;
+	margin:15px 15px;
+	border: 2px solid lightgray;
+	border-radius: 5px;
 }
 
 .search {
@@ -220,7 +246,7 @@ color:black;
 }
 
 .main-footer {
-	background: rgba(40,40,40,1);
+	background: #262626;
 	padding-top:50px;
 }
 
@@ -228,19 +254,38 @@ color:black;
 	padding:0 10px;
 }
 .footer-logo {
-	border-bottom: 2px solid lightgray;
+	border-bottom: 1px solid lightgray;
 	padding-bottom: 40px;
 }
 
 .footer-select {
-	margin: 30px 0;
+	margin-top: 30px;
 	width:170px;
 	height: 50px;
-	border:1px solid rgba(60,60,60,1);;
+	border:1px solid rgba(60,60,60,1);
 	border-radius: 2px;
 	background: rgba(60,60,60,1);
 	color: rgba(240,240,240,1);
 }
+
+footer p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+
+	color: #FFFFFF;
+}
+
+.hash-tag {
+	font-size: 16px;
+}
+
+.footer-info {
+	margin:30px 0;
+	font-size: 13px;
+}
+
 
 /*
 
