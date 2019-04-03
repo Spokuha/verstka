@@ -16,13 +16,20 @@
 */
 }
 
+
+:root {
+	--main-bg-color: rgba(240,240,240,1);
+}
+
 html {
 	box-sizing: border-box;
-	background: rgba(240,240,240,1);
+	background: var(--main-bg-color);
 }
+
 body {
-	font-size: 22px;
-	line-height: 34px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
 }
 
 
@@ -62,11 +69,7 @@ card
 
 
 
-.row {
-	display: flex;
-	flex-flow:wrap;
-	justify-content: space-between;
-}
+
 .footer-row-center {
 	display: flex;
 	flex-flow:wrap;
@@ -80,6 +83,14 @@ card
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	justify-content: center;
+}
+
+.header-image {
+	display: flex;
+	position:relative;
+	right : 8px;
+
 }
 
 .col-1, .col-2,.col-3, .col-4, .col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-11 {
@@ -101,36 +112,19 @@ card
 .col-12{flex-basis:100%;}
 
 
-@media (min-width: 768px) {
-  body {
-    display:block;
-  }
-  h1 {
-	font-size:26px;
-  }
-}
 
-@media (min-width: 992px) {
-  body {
-    color: green;
-  }
-}
-
-@media (min-width: 1200px) {
-	body {
-		color: rgba(100,100,100,1);
-	}
-}
 
 .card {
-
 	border:none;
 	margin-bottom: 20px;
 	text-align: center;
 }
 
 .card-search {
-
+	display: flex;
+	align-items: center;
+	padding-top: 58px;
+	padding-bottom: 20px;
 	border-bottom: 1px solid lightgray;
 }
 
@@ -140,110 +134,115 @@ card
 	order: <integer>;
 }
 
-header.container {
+.container-header {
 	background-color: white;
 	border-radius: 2px;
 }
 
-header .row {
-	justify-content: space-between;
-}
-
-.about-me {
-	padding: 10px;
-	border-bottom: 2px solid blue;
-	font-family: "Times New Roman", Times, serif;
-}
-
 .main-section {
-	color:lightgray;
-	font-family: 'Robotic';
-	margin: 0 10px;
+	margin-left: 8px;
+	margin-right: 4px;
 }
 
-.org-name {
-	font-family: Times New Roman sens-serif;
-	font-weight: lighter;
-}
-.green-eats {
-	color:green;
-	font-family: sens-serif;
-}
-.black-eats {
-	color:black;
-	font-weight: bold;
+.main-button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .header-button {
 	display: flex;
 	justify-content: flex-end;
 
+	text-align: center;
+	position: relative;
+	right:4px;
+
 }
 
 .register-button {
-	background-color: black;
-	color:white;
+	background-color: #262626;
+	color:#FFFFFF;
+	border: 2px;
+	border-radius: 2px;
 
-	height:70px;
-	width:110px;
-	margin:15px 5px;
-	border: 2px solid lightgray;
-	border-radius: 5px;
+
 }
 .signin-button {
 	background-color: white;
 	color:black;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	position: relative;
+	right:12px;
 
-	height:70px;
-	width:110px;
-	margin:15px 15px;
-	border: 2px solid lightgray;
-	border-radius: 5px;
+
+}
+
+.img-search {
+	position: relative;
 }
 
 .search {
-	width:500px;
-	margin-top: 60px;
-	font-family: Times New Roman sens-serif;
-	text-align: left;
-	margin-bottom: 10px;
-	background: rgba(240,240,240,1);
+	margin-left: 10px;
+	color: #626262;
+	background: var(--main-bg-color);
 	border:none;
+
+	mix-blend-mode: normal;
+	opacity: 0.5;
+
+}
+
+.txt-button {
+
+	line-height: normal;
+
+	margin-top: 24px;
+	margin-bottom: 8px;
+
+	color: #626262;
 }
 
 .when-button {
-	height:70px;
-	width:110px;
-	margin:15px 20px;
-	border: 2px solid;
-	border-color: lightgray;
-	border-radius: 5px;
-	background: rgba(240,240,240,1);
-	margin: 0px;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 2px;
+
+	background: var(--main-bg-color);
+
+
+
+
+	color: #1D1D1D;
 }
 .to-button {
-	height:70px;
-	width:420px;
-	margin:15px 20px;
-	border: 2px solid;
-	border-color: lightgray;
-	border-radius: 5px;
-	background: rgba(240,240,240,1);
-	margin: 0px;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 2px;
+	background: var(--main-bg-color);
+
+
+
+	color: #1D1D1D;
 }
 
 .restaurants-name {
-	margin-top:	100px;
-	margin-bottom: 40px;
-	color:rgba(50,50,50,1);
-}
-.timed-class{
-	color:rgba(50,50,50,1);
+	color: #1D1D1D;
+
+	align-self: flex-start;
+
+	margin-top: 40px;
+	margin-bottom: 14px;
+	
+
 }
 
-.main-image {
-	//
+
+.main-img-descr{
+	color: #1D1D1D;
 }
+
 
 .main-footer {
 	background: #262626;
@@ -260,18 +259,17 @@ header .row {
 
 .footer-select {
 	margin-top: 30px;
-	width:170px;
-	height: 50px;
-	border:1px solid rgba(60,60,60,1);
+
+	color: #FFFFFF;
+
+	border: 2px;
 	border-radius: 2px;
-	background: rgba(60,60,60,1);
-	color: rgba(240,240,240,1);
+	background: #3B3B3B url("../img/ubereats/stores/world.svg") no-repeat;
+	background-position: center	left;
+	padding-left: 30px;
 }
 
 footer p {
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
 	line-height: normal;
 
 	color: #FFFFFF;
@@ -286,6 +284,127 @@ footer p {
 	font-size: 13px;
 }
 
+.footer-back {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer-button {
+	background: #59BD5A;
+	border:1px solid #59BD5A;
+	border-radius: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 64px;
+	height: 64px;
+
+	position: relative;
+	right: 6px;
+
+	align-self: center;
+}
+
+.footer-company {
+	font-size: 11px;
+	display: flex;
+	justify-content: space-between;
+	height: 131px;
+}
+
+	@media (min-width: 768px) {
+		body {
+			display:block;
+		}
+		h1 {
+			font-size:26px;
+		}
+		.container {
+			width: 320px;
+			margin: 0 0;
+		}
+		.container-header {
+			display: flex;
+			align-items: center;
+			height: 72px;
+
+
+
+		}
+
+		.register-button {
+			width:72px;
+			height: 40px;
+			font-weight: 500;
+			font-size: 11px;
+		}
+		.signin-button {
+			width:72px;
+			height: 40px;
+			font-weight: 500;
+			font-size: 11px;
+		}
+		.search {
+			font-size: 13px;
+			line-height: 24px;
+			width: 182px;
+			height: 24px;
+		}
+		.txt-button {
+			width: 28px;
+			height: 13px;
+			font-size: 11px;
+
+		}
+
+		.when-button {
+			width: 65px;
+			height: 40px;
+
+			font-size: 13px;
+			line-height: 24px;
+		}
+
+		.to-button {
+			width: 227px;
+			height: 40px;
+
+			font-size: 13px;
+			line-height: 24px;
+		}
+
+		.restaurants-name {
+			font-size: 22px;
+			line-height: 34px;
+
+		}
+		.food-menu img{
+			width:311.04px;
+			height:250px;
+		}
+
+		select {
+			width: 173px;
+			height: 40px;
+		}
+
+	}
+
+	@media (min-width: 992px) {
+		body {
+			color: green;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		body {
+			color: rgba(100,100,100,1);
+		}
+
+		.container {
+			width:700px;
+		}
+	}
 
 /*
 
