@@ -1,7 +1,6 @@
 .container {
 	margin: 0 auto;
-	width:976px;
-
+	width:992px;
 
 	/*Необходим для фиксации ширины контента*/
 
@@ -50,21 +49,15 @@ header, nav {
 card
 
 @media print {
-  body {
-    font-size: 10pt;
-  }
+
 }
 
 @media screen {
-  body {
-    font-size: 20px;
-  }
+
 }
 
 @media screen, print {
-  body {
-    line-height: 1.2;
-  }
+
 }
 
 
@@ -76,24 +69,25 @@ card
 	justify-content: center;
 	border-bottom: 1px solid lightgray;
 	border-top: 1px solid lightgray;
-	padding: 10px 0;
 }
 
 .food-menu {
 	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
+	flex-wrap: wrap;
 }
+
 
 .header-image {
-	display: flex;
-	position:relative;
-	right : 8px;
-
+	margin-left: 8px;
 }
 
-.col-1, .col-2,.col-3, .col-4, .col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-11 {
+.footer-map-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-1, .col-2,.col-3, .col-4, .col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-11,.col-12 {
 	box-sizing: border-box;
 }
 
@@ -135,8 +129,10 @@ card
 }
 
 .container-header {
+    display: flex;
 	background-color: white;
 	border-radius: 2px;
+	justify-content: space-between;
 }
 
 .main-section {
@@ -144,9 +140,17 @@ card
 	margin-right: 4px;
 }
 
+.main-search {
+}
+
 .main-button {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
+}
+
+.header-right {
+	display: flex;
 	align-items: center;
 }
 
@@ -157,6 +161,7 @@ card
 	text-align: center;
 	position: relative;
 	right:4px;
+	box-sizing: border-box;
 
 }
 
@@ -173,10 +178,7 @@ card
 	color:black;
 	border: 1px solid #E0E0E0;
 	border-radius: 2px;
-	position: relative;
-	right:12px;
-
-
+	margin-right: 12px;
 }
 
 .img-search {
@@ -238,16 +240,24 @@ card
 
 }
 
+.main-img {
+	box-sizing: border-box;
+	flex-basis: 50%;
+}
 
 .main-img-descr{
 	color: #1D1D1D;
+	padding: 0;
+	margin: 0;
 }
 
 
-.main-footer {
+.footer {
 	background: #262626;
 	padding-top:50px;
+	margin-top: 63px;
 }
+
 
 .footer-middle {
 	padding:0 10px;
@@ -321,17 +331,13 @@ footer p {
 		}
 		.container {
 			width: 320px;
-			margin: 0 0;
+			margin: 0 auto;
 		}
 		.container-header {
 			display: flex;
 			align-items: center;
 			height: 72px;
-
-
-
 		}
-
 		.register-button {
 			width:72px;
 			height: 40px;
@@ -356,7 +362,6 @@ footer p {
 			font-size: 11px;
 
 		}
-
 		.when-button {
 			width: 65px;
 			height: 40px;
@@ -364,7 +369,6 @@ footer p {
 			font-size: 13px;
 			line-height: 24px;
 		}
-
 		.to-button {
 			width: 227px;
 			height: 40px;
@@ -382,65 +386,213 @@ footer p {
 			width:311.04px;
 			height:250px;
 		}
-
 		select {
 			width: 173px;
 			height: 40px;
 		}
-
+        .footer-map-button {
+            display: none;
+			box-sizing: border-box;
+        }
+		.header-basket {
+			display: none;
+		}
+		.footer-row-center {
+			padding: 10px 0;
+		}
 	}
+
+
 
 	@media (min-width: 992px) {
 		body {
 			color: green;
 		}
+
+        .footer-main {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+		.header-button {
+			right: 0px;
+		}
+
+		.header-basket {
+			display: block;
+			margin-right: 18px;
+			margin-left: 27px;
+		}
+
+		.header-right {
+			box-sizing: border-box;
+			flex-basis: 33.3333%;
+		}
+
+        .main-button {
+            display: none;
+        }
+
+		.footer-map-button{
+			display: flex;
+			flex-basis: 33.3333%;
+			justify-content: space-between;
+			position: relative;
+			right:88px;
+
+		}
+
+		.search {
+			width: 188px;
+
+		}
+
+		.signin-button {
+			margin-right: 16px;
+			width: 80px;
+		}
+
+		.register-button {
+			width: 80px;
+		}
+
+		.txt-button {
+			margin: 0px;
+			text-align: center;
+			width: 20px;
+
+		}
+
+		.header-logo {
+			box-sizing: border-box;
+			flex-basis: 33.3333%;
+		}
+
+		.when-button {
+			border: 1px solid #E0E0E0;
+			width: 57px;
+			height: 40px;
+			background: #FFFFFF;
+		}
+		
+		.to-button {
+			width: 215px;
+			height: 40px;
+			background: #FFFFFF;
+		}
+
+		.footer-main:nth-child(2) {
+			padding-right:203px;
+		}
+
+		.footer-select {
+			font-size: 13px;
+		}
+
+		.footer-footer {
+			box-sizing: border-box;
+			flex-basis: 75%;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.footer-company {
+			display: flex;
+
+		}
+
+		.footer-row-center {
+			padding: 40px 0;
+		}
+
+		.food-menu img {
+			width: 376px;
+		}
+		.main-img:nth-child(odd) img{
+			width: 365px;
+		}
+
+
+		.container {
+			width: 768px;
+		}
+
+
 	}
 
 	@media (min-width: 1200px) {
+
+		.container {
+			width: 1124px;
+		}
+
+		.header-image {
+			margin-left: 81px;
+
+		}
+
+		.footer-map-button {
+			right:35px;
+		}
+
+		.header-right {
+			justify-content: flex-end;
+		}
+
+		.header-basket {
+			margin-right: 97px;
+		}
+
 		body {
-			color: rgba(100,100,100,1);
+			background: #FFFFFF;
+		}
+        
+		.search {
+			background: #FFFFFF;
+		}
+
+		.main-img {
+			box-sizing: border-box;
+			flex-basis: 33.3333%;
+		}
+
+		.main-img img{
+			width:317px;
+		}
+
+		.main-img:nth-child(odd) img{
+			width: 317px;
+		}
+
+
+		.main-section {
+			margin-left: 81px;
+			margin-right: 87px;
+		}
+
+		.container-header {
+			box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 		}
 
 		.container {
-			width:700px;
+			margin: auto;
+		}
+
+		.main-img-descr:nth-child(3) {
+			font-size: 13px;
+			line-height: 21px;
+		}
+
+		.main-cost {
+			font-size: 14px;
+			line-height: 21px;
+		}
+
+		.main-food-name {
+			font-size: 16px;
+			line-height: 24px;
 		}
 	}
-
-/*
-
-
-This defines the alignment along the main axis. It helps distribute extra free space 
-left over when either all the flex items on a line are inflexible, or are flexible 
-but have reached their maximum size. 
-It also exerts some control over the alignment of items when they overflow the line.
-.container {
-  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
-}
-
-.item{
-	align-self:auto | flex-start | flex-end | center | baseline | stretch;
-}
-
-.itemP
-justify-content: flex-start | flex-end | center | space-between | space-around;
-
-
-.container {
-  flex-direction: row | row-reverse | column | column-reverse;
-
-  row (default): left to right in ltr; right to left in rtl
-	row-reverse: right to left in ltr; left to right in rtl
-	column: same as row but top to bottom
-	column-reverse: same as row-reverse but bottom to top
-
-
-	.item {
-  flex-grow: <number>;  default 0 
-}
-
-By default, flex items will all try to fit onto one line. 
-You can change that and allow the items to wrap as needed with this property.
-.container{
-  flex-wrap: nowrap | wrap | wrap-reverse;
-}
-*/

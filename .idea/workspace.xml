@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="222" column="37" lean-forward="true" selection-start-line="222" selection-start-column="37" selection-end-line="222" selection-end-column="37" />
+            <state relative-caret-position="679">
+              <caret line="596" column="9" selection-start-line="596" selection-start-column="9" selection-end-line="596" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -32,14 +32,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uber_eats.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="987">
+              <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="42" />
               <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#4;n#div#0;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,36 +48,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>display:flex</find>
-      <find>display:</find>
-      <find>border</find>
-      <find>footer-row</find>
-      <find>main-footer</find>
-      <find>main-section</find>
-      <find>timed</find>
-      <find>main-im</find>
-      <find>container</find>
-      <find>header</find>
-      <find>row</find>
-      <find>card-se</find>
-      <find>card-sear</find>
-      <find>when</find>
-      <find>sear</find>
-      <find>resta</find>
-      <find>restu</find>
-      <find>about-me</find>
-      <find>main-sec</find>
-      <find>main-se</find>
-      <find>restau</find>
-      <find>main-ima</find>
-      <find>search</find>
       <find>img</find>
       <find>footer-se</find>
       <find>image</find>
       <find>footer-sele</find>
       <find>select</find>
       <find>button</find>
+      <find>footer-info</find>
+      <find>footer-row</find>
+      <find>footer-main</find>
+      <find>header-image</find>
+      <find>main-but</find>
+      <find>conta</find>
+      <find>header</find>
+      <find>sign</find>
+      <find>footer</find>
+      <find>header-logo</find>
+      <find>header-ba</find>
+      <find>footer-ma</find>
+      <find>when</find>
+      <find>header-b</find>
+      <find>footer-</find>
+      <find>footer-map</find>
+      <find>search</find>
+      <find>food-me</find>
+      <find>container</find>
+      <find>main-footer</find>
+      <find>main-im</find>
+      <find>header-right</find>
       <find>main-img</find>
+      <find>body</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,6 +130,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -169,18 +169,21 @@
       <workItem from="1554137556629" duration="4404000" />
       <workItem from="1554282472987" duration="939000" />
       <workItem from="1554284448640" duration="11908000" />
+      <workItem from="1554305372230" duration="3331000" />
+      <workItem from="1554309810826" duration="12022000" />
+      <workItem from="1554327920645" duration="4676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45707000" />
+    <option name="totallyTimeSpent" value="65736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1002" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49538106" visible="true" weight="0.18133895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50461894" side_tool="true" visible="true" weight="0.18133895" />
+      <window_info id="Favorites" order="2" sideWeight="0.50461894" side_tool="true" weight="0.18133895" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -227,22 +230,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uber_eats.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="987">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="42" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#div#0;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#div#0;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#4;n#div#0;n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="222" column="37" lean-forward="true" selection-start-line="222" selection-start-column="37" selection-end-line="222" selection-end-column="37" />
+        <state relative-caret-position="679">
+          <caret line="596" column="9" selection-start-line="596" selection-start-column="9" selection-end-line="596" selection-end-column="9" />
         </state>
       </provider>
     </entry>
