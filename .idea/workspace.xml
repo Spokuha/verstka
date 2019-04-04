@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed5664b-2876-432e-a33d-2c587cecdd44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber_eats.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eats.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,22 +21,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="596" column="9" selection-start-line="596" selection-start-column="9" selection-end-line="596" selection-end-column="9" />
+            <state relative-caret-position="531">
+              <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uber_eats.html">
+        <entry file="file://$PROJECT_DIR$/ubereats_restaurants.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="42" />
+            <state relative-caret-position="246">
+              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
               <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,36 +44,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>img</find>
-      <find>footer-se</find>
-      <find>image</find>
-      <find>footer-sele</find>
-      <find>select</find>
-      <find>button</find>
-      <find>footer-info</find>
-      <find>footer-row</find>
-      <find>footer-main</find>
-      <find>header-image</find>
-      <find>main-but</find>
-      <find>conta</find>
-      <find>header</find>
-      <find>sign</find>
-      <find>footer</find>
-      <find>header-logo</find>
-      <find>header-ba</find>
-      <find>footer-ma</find>
-      <find>when</find>
-      <find>header-b</find>
-      <find>footer-</find>
-      <find>footer-map</find>
-      <find>search</find>
-      <find>food-me</find>
+      <find>327430</find>
+      <find>main-container</find>
+      <find>url</find>
+      <find>nth</find>
       <find>container</find>
-      <find>main-footer</find>
-      <find>main-im</find>
-      <find>header-right</find>
-      <find>main-img</find>
+      <find>main</find>
+      <find>container-hea</find>
+      <find>container-header</find>
+      <find>footer-map</find>
+      <find>header</find>
+      <find>header-map</find>
+      <find>57</find>
+      <find>when</find>
+      <find>restu</find>
+      <find>mosco</find>
+      <find>restaurant</find>
+      <find>main-headear</find>
+      <find>restaurants</find>
+      <find>restauran</find>
+      <find>.restaurants-name</find>
+      <find>.restaurants-type</find>
+      <find>main-conta</find>
       <find>body</find>
+      <find>main-img</find>
+      <find>style</find>
+      <find>main-img-des</find>
+      <find>main-img:</find>
+      <find>main-img img</find>
+      <find>main-button</find>
+      <find>main-butto</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,6 +83,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/uber_eats.html" />
+        <option value="$PROJECT_DIR$/ubereats_restaurants.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
@@ -101,6 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,13 +109,32 @@
             <path>
               <item name="verstka" type="b2602c69:ProjectViewProjectNode" />
               <item name="verstka" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verstka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verstka" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="ubereats" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verstka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verstka" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="ubereats" type="462c0819:PsiDirectoryNode" />
+              <item name="Restaurant " type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verstka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verstka" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="ubereats" type="462c0819:PsiDirectoryNode" />
+              <item name="stores" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,18 +189,19 @@
       <workItem from="1554305372230" duration="3331000" />
       <workItem from="1554309810826" duration="12022000" />
       <workItem from="1554327920645" duration="4676000" />
+      <workItem from="1554389983801" duration="11686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65736000" />
+    <option name="totallyTimeSpent" value="77422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1002" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49538106" visible="true" weight="0.18133895" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49422634" visible="true" weight="0.18133895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50461894" side_tool="true" weight="0.18133895" />
+      <window_info active="true" id="Favorites" order="2" sideWeight="0.50577366" side_tool="true" visible="true" weight="0.18133895" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -230,7 +248,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uber_eats.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
+        <state relative-caret-position="784">
           <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -241,10 +259,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ubereats_restaurants.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="596" column="9" selection-start-line="596" selection-start-column="9" selection-end-line="596" selection-end-column="9" />
+        <state relative-caret-position="531">
+          <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
         </state>
       </provider>
     </entry>
