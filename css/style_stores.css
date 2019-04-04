@@ -1,0 +1,598 @@
+.container {
+	margin: 0 auto;
+	width:992px;
+
+	/*Необходим для фиксации ширины контента*/
+
+	/*Второе тоже: мы делаем класс .container с шириной 992 - 16 пикселей. Что? Откуда эти значения?
+
+992 пикселя это константа — в последнее время дизайнеры верстают десктопные макеты именно с такой шириной,
+
+16 пикселей это паддинги слева и справа у колонок.
+
+992-16=976 пикселей должна быть ширина нашего контейнера.
+
+*/
+}
+
+
+:root {
+	--main-bg-color: rgba(240,240,240,1);
+}
+
+html {
+	box-sizing: border-box;
+	background: var(--main-bg-color);
+}
+
+body {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+h1,h2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header, nav {
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+
+
+
+@media <media-query-list> {
+  /* Условия при которых выполняется код */
+}
+card
+
+@media print {
+
+}
+
+@media screen {
+
+}
+
+@media screen, print {
+
+}
+
+
+
+
+.footer-row-center {
+	display: flex;
+	flex-flow:wrap;
+	justify-content: center;
+	border-bottom: 1px solid lightgray;
+	border-top: 1px solid lightgray;
+}
+
+.food-menu {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.header-image {
+	margin-left: 8px;
+}
+
+.footer-map-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-1, .col-2,.col-3, .col-4, .col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-11,.col-12 {
+	box-sizing: border-box;
+}
+
+
+.col-1{flex-basis:8.3333%;}
+.col-2{flex-basis:16.6667%;}
+.col-3{flex-basis:24.9999%;}
+.col-4{flex-basis:33.33333%;}
+.col-5{flex-basis:41.6665%;}
+.col-6{flex-basis:49.9998%;}
+.col-7{flex-basis:58.3331%;}
+.col-8{flex-basis:66.6664%;}
+.col-9{flex-basis:74.9997%;}
+.col-10{flex-basis:83.3333%;}
+.col-11{flex-basis:91.6663%;}
+.col-12{flex-basis:100%;}
+
+
+
+
+.card {
+	border:none;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.card-search {
+	display: flex;
+	align-items: center;
+	padding-top: 58px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid lightgray;
+}
+
+
+
+.item {
+	order: <integer>;
+}
+
+.container-header {
+    display: flex;
+	background-color: white;
+	border-radius: 2px;
+	justify-content: space-between;
+}
+
+.main-section {
+	margin-left: 8px;
+	margin-right: 4px;
+}
+
+.main-search {
+}
+
+.main-button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header-right {
+	display: flex;
+	align-items: center;
+}
+
+.header-button {
+	display: flex;
+	justify-content: flex-end;
+
+	text-align: center;
+	position: relative;
+	right:4px;
+	box-sizing: border-box;
+
+}
+
+.register-button {
+	background-color: #262626;
+	color:#FFFFFF;
+	border: 2px;
+	border-radius: 2px;
+
+
+}
+.signin-button {
+	background-color: white;
+	color:black;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	margin-right: 12px;
+}
+
+.img-search {
+	position: relative;
+}
+
+.search {
+	margin-left: 10px;
+	color: #626262;
+	background: var(--main-bg-color);
+	border:none;
+
+	mix-blend-mode: normal;
+	opacity: 0.5;
+
+}
+
+.txt-button {
+
+	line-height: normal;
+
+	margin-top: 24px;
+	margin-bottom: 8px;
+
+	color: #626262;
+}
+
+.when-button {
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 2px;
+
+	background: var(--main-bg-color);
+
+
+
+
+	color: #1D1D1D;
+}
+.to-button {
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 2px;
+	background: var(--main-bg-color);
+
+
+
+	color: #1D1D1D;
+}
+
+.restaurants-name {
+	color: #1D1D1D;
+
+	align-self: flex-start;
+
+	margin-top: 40px;
+	margin-bottom: 14px;
+	
+
+}
+
+.main-img {
+	box-sizing: border-box;
+	flex-basis: 50%;
+}
+
+.main-img-descr{
+	color: #1D1D1D;
+	padding: 0;
+	margin: 0;
+}
+
+
+.footer {
+	background: #262626;
+	padding-top:50px;
+	margin-top: 63px;
+}
+
+
+.footer-middle {
+	padding:0 10px;
+}
+.footer-logo {
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 40px;
+}
+
+.footer-select {
+	margin-top: 30px;
+
+	color: #FFFFFF;
+
+	border: 2px;
+	border-radius: 2px;
+	background: #3B3B3B url("../img/ubereats/stores/world.svg") no-repeat;
+	background-position: center	left;
+	padding-left: 30px;
+}
+
+footer p {
+	line-height: normal;
+
+	color: #FFFFFF;
+}
+
+.hash-tag {
+	font-size: 16px;
+}
+
+.footer-info {
+	margin:30px 0;
+	font-size: 13px;
+}
+
+.footer-back {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer-button {
+	background: #59BD5A;
+	border:1px solid #59BD5A;
+	border-radius: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 64px;
+	height: 64px;
+
+	position: relative;
+	right: 6px;
+
+	align-self: center;
+}
+
+.footer-company {
+	font-size: 11px;
+	display: flex;
+	justify-content: space-between;
+	height: 131px;
+}
+
+	@media (min-width: 768px) {
+		body {
+			display:block;
+		}
+		h1 {
+			font-size:26px;
+		}
+		.container {
+			width: 320px;
+			margin: 0 auto;
+		}
+		.container-header {
+			display: flex;
+			align-items: center;
+			height: 72px;
+		}
+		.register-button {
+			width:72px;
+			height: 40px;
+			font-weight: 500;
+			font-size: 11px;
+		}
+		.signin-button {
+			width:72px;
+			height: 40px;
+			font-weight: 500;
+			font-size: 11px;
+		}
+		.search {
+			font-size: 13px;
+			line-height: 24px;
+			width: 182px;
+			height: 24px;
+		}
+		.txt-button {
+			width: 28px;
+			height: 13px;
+			font-size: 11px;
+
+		}
+		.when-button {
+			width: 65px;
+			height: 40px;
+
+			font-size: 13px;
+			line-height: 24px;
+		}
+		.to-button {
+			width: 227px;
+			height: 40px;
+
+			font-size: 13px;
+			line-height: 24px;
+		}
+
+		.restaurants-name {
+			font-size: 22px;
+			line-height: 34px;
+
+		}
+		.food-menu img{
+			width:311.04px;
+			height:250px;
+		}
+		select {
+			width: 173px;
+			height: 40px;
+		}
+        .footer-map-button {
+            display: none;
+			box-sizing: border-box;
+        }
+		.header-basket {
+			display: none;
+		}
+		.footer-row-center {
+			padding: 10px 0;
+		}
+	}
+
+
+
+	@media (min-width: 992px) {
+		body {
+			color: green;
+		}
+
+        .footer-main {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+		.header-button {
+			right: 0px;
+		}
+
+		.header-basket {
+			display: block;
+			margin-right: 18px;
+			margin-left: 27px;
+		}
+
+		.header-right {
+			box-sizing: border-box;
+			flex-basis: 33.3333%;
+		}
+
+        .main-button {
+            display: none;
+        }
+
+		.footer-map-button{
+			display: flex;
+			flex-basis: 33.3333%;
+			justify-content: space-between;
+			position: relative;
+			right:88px;
+
+		}
+
+		.search {
+			width: 188px;
+
+		}
+
+		.signin-button {
+			margin-right: 16px;
+			width: 80px;
+		}
+
+		.register-button {
+			width: 80px;
+		}
+
+		.txt-button {
+			margin: 0px;
+			text-align: center;
+			width: 20px;
+
+		}
+
+		.header-logo {
+			box-sizing: border-box;
+			flex-basis: 33.3333%;
+		}
+
+		.when-button {
+			border: 1px solid #E0E0E0;
+			width: 57px;
+			height: 40px;
+			background: #FFFFFF;
+		}
+		
+		.to-button {
+			width: 215px;
+			height: 40px;
+			background: #FFFFFF;
+		}
+
+		.footer-main:nth-child(2) {
+			padding-right:203px;
+		}
+
+		.footer-select {
+			font-size: 13px;
+		}
+
+		.footer-footer {
+			box-sizing: border-box;
+			flex-basis: 75%;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.footer-company {
+			display: flex;
+
+		}
+
+		.footer-row-center {
+			padding: 40px 0;
+		}
+
+		.food-menu img {
+			width: 376px;
+		}
+		.main-img:nth-child(odd) img{
+			width: 365px;
+		}
+
+
+		.container {
+			width: 768px;
+		}
+
+
+	}
+
+	@media (min-width: 1200px) {
+
+		.container {
+			width: 1124px;
+		}
+
+		.header-image {
+			margin-left: 81px;
+
+		}
+
+		.footer-map-button {
+			right:35px;
+		}
+
+		.header-right {
+			justify-content: flex-end;
+		}
+
+		.header-basket {
+			margin-right: 97px;
+		}
+
+		body {
+			background: #FFFFFF;
+		}
+        
+		.search {
+			background: #FFFFFF;
+		}
+
+		.main-img {
+			box-sizing: border-box;
+			flex-basis: 33.3333%;
+		}
+
+		.main-img img{
+			width:317px;
+		}
+
+		.main-img:nth-child(odd) img{
+			width: 317px;
+		}
+
+
+		.main-section {
+			margin-left: 81px;
+			margin-right: 87px;
+		}
+
+		.container-header {
+			box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+		}
+
+		.container {
+			margin: auto;
+		}
+
+		.main-img-descr:nth-child(3) {
+			font-size: 13px;
+			line-height: 21px;
+		}
+
+		.main-cost {
+			font-size: 14px;
+			line-height: 21px;
+		}
+
+		.main-food-name {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
