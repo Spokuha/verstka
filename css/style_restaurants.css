@@ -81,6 +81,7 @@ card
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+
 }
 
 .main-container {
@@ -105,13 +106,8 @@ card
 	height: 364px;
 }
 
- .main-container > a:first-child{
-	margin-left: 81px;
-}
 
-.header-image {
-	margin-left: 8px;
-}
+
 
 .header-map-button {
     display: flex;
@@ -167,10 +163,6 @@ card
 	justify-content: space-between;
 }
 
-.main-section {
-	margin-left: 8px;
-	margin-right: 4px;
-}
 
 .food-type {
 	font-size: 22px;
@@ -271,7 +263,6 @@ q{
 	width: 389px;
 	height: 204px;
 	background: #FFFFFF;
-	margin-left: 81px;
 
 
 }
@@ -333,9 +324,6 @@ q{
 }
 
 
-.footer-middle {
-	padding:0 10px;
-}
 .footer-logo {
 	border-bottom: 1px solid lightgray;
 	padding-bottom: 40px;
@@ -606,10 +594,6 @@ footer p {
 			width: 1124px;
 		}
 
-		.header-image {
-			margin-left: 81px;
-
-		}
 
 		.header-map-button {
 			right:35px;
@@ -642,6 +626,14 @@ footer p {
 		.restaurants-type {
 			font-size: 13px;
 		}
+		.restaurants-info {
+			margin-left: 81px;
+		}
+
+		.food-menu {
+			margin-left: 81px;
+			margin-right: 87px;
+		}
 
 		body {
 			background: #FFFFFF;
@@ -653,7 +645,12 @@ footer p {
 
 		.main-img {
 			box-sizing: border-box;
-			flex-basis: 48%;
+			flex-basis: 49%;
+			margin-bottom: 49px;
+		}
+		.main-img:hover {
+			background: lightgray;
+			mix-blend-mode: normal;
 		}
 
 		.main-img img{
@@ -661,10 +658,11 @@ footer p {
 			height: 160px;
 		}
 
+		.padding-left {
+			padding-left: 81px;
+		}
 
-
-		.main-section {
-			margin-left: 81px;
+		.margin-right {
 			margin-right: 87px;
 		}
 
@@ -675,9 +673,50 @@ footer p {
 			width: 1124px;
 		}
 
-		.main-img-descr:nth-child(3) {
+		.main-img-descr {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+			align-items: flex-start;
+			margin-left: 16px;
+
+		}
+
+		.main-img-descr div p:nth-child(1){
+			font-size: 16px;
+			line-height: 24px;
+
+			color: #1D1D1D;
+
+			margin-top: 16px;
+			margin-bottom: 0px;
+		}
+		.main-img-descr div p:nth-child(2){
 			font-size: 13px;
 			line-height: 21px;
+
+			color: #626262;
+
+			margin-top: 4px;
+			margin-bottom: 0px;
+		}
+
+
+		.main-img-descr :nth-child(2) {
+			font-size: 15px;
+			line-height: 21px;
+
+			box-sizing: border-box;
+			flex-basis: 100%;
+
+
+
+			align-self: flex-end;
+
+			margin: 0px;
+			margin-bottom: 16px;
+			color: #1D1D1D;
+
 		}
 
 		.main-cost {
@@ -688,5 +727,11 @@ footer p {
 		.main-food-name {
 			font-size: 16px;
 			line-height: 24px;
+		}
+
+		.footer {
+			margin-top: 31px;
+			padding-left: 81px;
+			padding-right: 87px;
 		}
 	}

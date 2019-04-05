@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed5664b-2876-432e-a33d-2c587cecdd44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_restaurants.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_restaurants.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubereats_restaurants.html" beforeDir="false" afterPath="$PROJECT_DIR$/ubereats_restaurants.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,24 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ubereats_restaurants.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
+            <state relative-caret-position="435">
+              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ubereats_restaurants.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style_restaurants.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="469">
+              <caret line="651" column="33" selection-start-line="651" selection-start-column="33" selection-end-line="651" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -44,16 +44,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>327430</find>
-      <find>main-container</find>
-      <find>url</find>
-      <find>nth</find>
-      <find>container</find>
-      <find>main</find>
-      <find>container-hea</find>
       <find>container-header</find>
       <find>footer-map</find>
-      <find>header</find>
       <find>header-map</find>
       <find>57</find>
       <find>when</find>
@@ -67,13 +59,21 @@
       <find>.restaurants-type</find>
       <find>main-conta</find>
       <find>body</find>
-      <find>main-img</find>
       <find>style</find>
-      <find>main-img-des</find>
       <find>main-img:</find>
       <find>main-img img</find>
       <find>main-button</find>
       <find>main-butto</find>
+      <find>margin-left: 81px</find>
+      <find>.container</find>
+      <find>margin</find>
+      <find>restaura</find>
+      <find>margin-left</find>
+      <find>food</find>
+      <find>footer</find>
+      <find>main-img-des</find>
+      <find>main-img</find>
+      <find>header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,8 +83,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/uber_eats.html" />
-        <option value="$PROJECT_DIR$/ubereats_restaurants.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/ubereats_restaurants.html" />
+        <option value="$PROJECT_DIR$/css/style_restaurants.css" />
       </list>
     </option>
   </component>
@@ -109,27 +110,7 @@
             <path>
               <item name="verstka" type="b2602c69:ProjectViewProjectNode" />
               <item name="verstka" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verstka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verstka" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="ubereats" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verstka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verstka" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="ubereats" type="462c0819:PsiDirectoryNode" />
-              <item name="Restaurant " type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="verstka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verstka" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="ubereats" type="462c0819:PsiDirectoryNode" />
-              <item name="stores" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,18 +171,20 @@
       <workItem from="1554309810826" duration="12022000" />
       <workItem from="1554327920645" duration="4676000" />
       <workItem from="1554389983801" duration="11686000" />
+      <workItem from="1554462324984" duration="6441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77422000" />
+    <option name="totallyTimeSpent" value="83863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1002" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49422634" visible="true" weight="0.18133895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4930716" visible="true" weight="0.18133895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" id="Favorites" order="2" sideWeight="0.50577366" side_tool="true" visible="true" weight="0.18133895" />
+      <window_info id="Favorites" order="2" sideWeight="0.5069284" side_tool="true" weight="0.18133895" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -243,9 +226,6 @@
     <entry file="file://$PROJECT_DIR$/img/ubereats/if_icon-ios7-arrow-back_211686.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/ubereats/en_badge_web_generic-cf6dad406f-2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/uber_eats.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
@@ -259,21 +239,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4905">
+          <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/ubereats/en_badge_web_generic-cf6dad406f-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ubereats_restaurants.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+        <state relative-caret-position="435">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/css/style_restaurants.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
+        <state relative-caret-position="469">
+          <caret line="651" column="33" selection-start-line="651" selection-start-column="33" selection-end-line="651" selection-end-column="33" />
         </state>
       </provider>
     </entry>
