@@ -40,26 +40,6 @@ header, nav {
 	font-family: Arial,Helvetica,sans-serif;
 }
 
-
-
-
-@media <media-query-list> {
-  /* Условия при которых выполняется код */
-}
-card
-
-@media print {
-
-}
-
-@media screen {
-
-}
-
-@media screen, print {
-
-}
-
 	a {
 		color:#626262;
 	}
@@ -374,6 +354,11 @@ footer p {
 			align-items: center;
 			height: 72px;
 		}
+
+		.padding-left {
+			padding-left: 8px;
+		}
+
 		.register-button {
 			width:72px;
 			height: 40px;
@@ -389,6 +374,7 @@ footer p {
 
 		.restaurants-info {
 			margin-left: 8px;
+			margin-top: 131px;
 		}
 
 		.txt-button {
@@ -413,8 +399,8 @@ footer p {
 		}
 
 		.restaurants-name {
-			font-size: 22px;
-			line-height: 34px;
+			font-size: 24px;
+			line-height: normal;
 
 		}
 		.food-menu img{
@@ -441,6 +427,26 @@ footer p {
 			width:102px;
 			height: 102px;
 		}
+
+		.main-header-image {
+			width: 320px;
+			height: 255.89px;
+			background-image: url("../img/ubereats/Restaurant /photo3.png");
+		}
+
+		.restaurants-info {
+			width: 308px;
+			height: 180px;
+
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.restaurants-name {
+
+		}
+
 	}
 
 
@@ -573,6 +579,12 @@ footer p {
 			width: 768px;
 		}
 
+		.main-header-image{
+			width: 768px;
+			height: 364px;
+			background-image: url("../img/ubereats/Restaurant /d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.png");
+		}
+
 		.main-img {
 		box-sizing: border-box;
 		flex-basis: 100%;
@@ -582,6 +594,15 @@ footer p {
 		.food-menu .main-img:last-child{
 			margin-bottom: 48px;
 		}
+
+		.restaurants-info {
+			width: 432px;
+			height: 204px;
+
+			margin-top: 0px;
+		}
+
+
 
 		.main-img:hover {
 			background: lightgray;
@@ -692,6 +713,19 @@ footer p {
 		}
 		.restaurants-info {
 			margin-left: 81px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			width: 389px;
+			height: 204px;
+			margin-top: 0px;
+		}
+
+		.main-header-image {
+			width: 1124px;
+			height: 364px;
+			background-image: url("../img/ubereats/Restaurant /main-img.png");
 		}
 
 		.food-menu {

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ed5664b-2876-432e-a33d-2c587cecdd44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style_restaurants.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_restaurants.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ubereats/stores/main-img.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style_restaurants.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="581" column="39" selection-start-line="581" selection-start-column="39" selection-end-line="581" selection-end-column="39" />
+            <state relative-caret-position="486">
+              <caret line="446" selection-start-line="446" selection-end-line="446" />
             </state>
           </provider>
         </entry>
@@ -43,10 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>when</find>
-      <find>restu</find>
-      <find>mosco</find>
-      <find>restaurant</find>
       <find>main-headear</find>
       <find>restaurants</find>
       <find>restauran</find>
@@ -73,6 +70,10 @@
       <find>main-img-des</find>
       <find>main-img:</find>
       <find>.main-img</find>
+      <find>.main-header-image</find>
+      <find>media</find>
+      <find>rest</find>
+      <find>.restaurants-info</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,16 +171,15 @@
       <workItem from="1554309810826" duration="12022000" />
       <workItem from="1554327920645" duration="4676000" />
       <workItem from="1554389983801" duration="11686000" />
-      <workItem from="1554462324984" duration="8549000" />
+      <workItem from="1554462324984" duration="11686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85971000" />
+    <option name="totallyTimeSpent" value="89108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1002" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930716" visible="true" weight="0.18133895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -260,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_restaurants.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="581" column="39" selection-start-line="581" selection-start-column="39" selection-end-line="581" selection-end-column="39" />
+        <state relative-caret-position="486">
+          <caret line="446" selection-start-line="446" selection-end-line="446" />
         </state>
       </provider>
     </entry>
