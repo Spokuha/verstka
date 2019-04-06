@@ -81,6 +81,7 @@ header, nav {
 }
 .main-header-image {
 	display: flex;
+	margin: auto;
 	align-items: center;
 	background-image: url("../img/ubereats/stores/main-img.png");
 	height: 364px;
@@ -526,7 +527,7 @@ footer p {
 
 		.food-type-border {
 			border-top: 1px solid #757575;
-			width: 50px;
+			width: 6em;
 			height: 1px;
 			margin-bottom: 43px;
 		}
@@ -785,7 +786,7 @@ footer p {
 		}
 
 		.container {
-			width: 768px;
+			width: auto;
 		}
 
 		.main-section {
@@ -941,9 +942,6 @@ footer p {
 
 	@media (min-width: 1200px) {
 
-		.container {
-			width: 1124px;
-		}
 
 
 		.header-map-button {
@@ -1041,8 +1039,7 @@ footer p {
 
 
 		.container {
-			margin: auto;
-			width: 1124px;
+			width: auto;
 		}
 
 		.main-img-descr {

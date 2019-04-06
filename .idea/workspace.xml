@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8ed5664b-2876-432e-a33d-2c587cecdd44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style_restaurants.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_restaurants.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ubereats_restaurants.html" beforeDir="false" afterPath="$PROJECT_DIR$/ubereats_restaurants.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style_restaurants.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="861" selection-start-line="861" selection-end-line="861" />
+            <state relative-caret-position="291">
+              <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -45,7 +43,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main-img:</find>
       <find>.main-img</find>
       <find>media</find>
       <find>rest</find>
@@ -55,7 +52,6 @@
       <find>border</find>
       <find>Трактир</find>
       <find>.restaurants-type</find>
-      <find>.container</find>
       <find>main-img</find>
       <find>.main-img-descr :nth-child(2)</find>
       <find>.food-type</find>
@@ -75,6 +71,8 @@
       <find>.footer-select</find>
       <find>footer-info-img</find>
       <find>.footer-main</find>
+      <find>.food-type-border</find>
+      <find>.container</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,12 +171,12 @@
       <workItem from="1554327920645" duration="4676000" />
       <workItem from="1554389983801" duration="11686000" />
       <workItem from="1554462324984" duration="11686000" />
-      <workItem from="1554563899544" duration="6667000" />
+      <workItem from="1554563899544" duration="8636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103482000" />
+    <option name="totallyTimeSpent" value="105451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1002" extended-state="6" />
@@ -245,8 +243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_restaurants.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="861" selection-start-line="861" selection-end-line="861" />
+        <state relative-caret-position="291">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
         </state>
       </provider>
     </entry>
