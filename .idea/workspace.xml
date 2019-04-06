@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ed5664b-2876-432e-a33d-2c587cecdd44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style_restaurants.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_restaurants.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ubereats/stores/main-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubereats_restaurants.html" beforeDir="false" afterPath="$PROJECT_DIR$/ubereats_restaurants.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ubereats_restaurants.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+            <state relative-caret-position="396">
+              <caret line="142" selection-start-line="142" selection-end-line="142" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style_restaurants.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="446" selection-start-line="446" selection-end-line="446" />
+            <state relative-caret-position="546">
+              <caret line="856" column="39" selection-start-line="856" selection-start-column="39" selection-end-line="856" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -44,13 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main-headear</find>
-      <find>restaurants</find>
-      <find>restauran</find>
-      <find>.restaurants-name</find>
-      <find>.restaurants-type</find>
-      <find>main-conta</find>
-      <find>body</find>
       <find>style</find>
       <find>main-img img</find>
       <find>main-button</find>
@@ -66,7 +59,6 @@
       <find>98</find>
       <find>header</find>
       <find>search</find>
-      <find>main-img</find>
       <find>main-img-des</find>
       <find>main-img:</find>
       <find>.main-img</find>
@@ -74,6 +66,14 @@
       <find>media</find>
       <find>rest</find>
       <find>.restaurants-info</find>
+      <find>restaurants-name</find>
+      <find>main-container</find>
+      <find>background-ima</find>
+      <find>border</find>
+      <find>main-img</find>
+      <find>Трактир</find>
+      <find>.restaurants-type</find>
+      <find>.restaurants-type p:nth-child(2)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,14 +176,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89108000" />
+    <option name="totallyTimeSpent" value="96815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1002" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930716" visible="true" weight="0.18133895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4896074" visible="true" weight="0.18133895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" id="Favorites" order="2" sideWeight="0.5069284" side_tool="true" visible="true" weight="0.18133895" />
+      <window_info id="Favorites" order="2" sideWeight="0.5103926" side_tool="true" weight="0.18133895" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -225,33 +226,15 @@
     <entry file="file://$PROJECT_DIR$/img/ubereats/if_icon-ios7-arrow-back_211686.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/uber_eats.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4905">
-          <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/uber_eats.html" />
+    <entry file="file://$PROJECT_DIR$/css/styles.css" />
     <entry file="file://$PROJECT_DIR$/img/ubereats/en_badge_web_generic-cf6dad406f-2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ubereats_restaurants.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        <state relative-caret-position="396">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
           <folding>
             <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#main#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -260,8 +243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_restaurants.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="446" selection-start-line="446" selection-end-line="446" />
+        <state relative-caret-position="546">
+          <caret line="856" column="39" selection-start-line="856" selection-start-column="39" selection-end-line="856" selection-end-column="39" />
         </state>
       </provider>
     </entry>
