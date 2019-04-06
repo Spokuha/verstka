@@ -147,9 +147,15 @@ header, nav {
 
 	text-align: center;
 	position: relative;
-	right:4px;
+	right:1em;
 	box-sizing: border-box;
 
+}
+
+.header-button button{
+	width: 7em;
+	height: 3em;
+	font-size: 2em;
 }
 
 .register-button {
@@ -214,8 +220,8 @@ q{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width: 389px;
-	height: 204px;
+	width: 64em;
+	height: 10em;
 	background: #FFFFFF;
 
 
@@ -234,21 +240,24 @@ q{
  }
 
  .restaurants-type p:nth-child(2){
-	 width: 97px;
+	 width: 6em;
 	 display: flex;
 	 justify-content: center;
 	 align-items: center;
-	 height: 32px;
+	 height: 2em;
 	 text-align: center;
 	 background: #262626;
 	 color: #FFFFFF;
 	 margin-left: 100px;
-	 border-radius: 16px;
+	 border-radius: 2em;
 	 bottom: 8px;
  }
 
 	.restaurants-type p:nth-child(1){
-		font-size: 14px;
+		font-size: 2em;
+	}
+	.main-section {
+		margin-top: 10em;
 	}
 
 .main-img {
@@ -304,7 +313,6 @@ footer p {
 
 .footer-info {
 	margin:30px 0;
-	font-size: 13px;
 }
 
 .footer-back {
@@ -319,8 +327,8 @@ footer p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 64px;
-	height: 64px;
+	width: 8em;
+	height: 8em;
 
 	position: relative;
 	right: 6px;
@@ -328,12 +336,31 @@ footer p {
 	align-self: center;
 }
 
+
+
 .footer-company {
-	font-size: 11px;
 	display: flex;
 	justify-content: space-between;
-	height: 131px;
+	padding-bottom: 2em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	@media (min-width: 768px) {
 		body {
@@ -342,18 +369,23 @@ footer p {
 		h1 {
 			font-size:26px;
 		}
-		.container {
-			width: 320px;
-			margin: 0 auto;
-		}
 		.container-header {
 			display: flex;
 			align-items: center;
-			height: 72px;
+			height: 8em;
+		}
+
+		.hash-tag {
+			font-size: 1em;
 		}
 
 		.padding-left {
-			padding-left: 8px;
+			padding-left: 1em;
+		}
+
+		.header-logo img{
+			width: 15em;
+			height: auto;
 		}
 
 		.register-button {
@@ -392,7 +424,7 @@ footer p {
 		}
 
 		.restaurants-name {
-			font-size: 24px;
+			font-size: 4em;
 			line-height: normal;
 		}
 		.food-menu img{
@@ -411,26 +443,42 @@ footer p {
 			display: none;
 		}
 		.footer-row-center {
-			padding: 10px 0;
+			padding: 2em 0;
+		}
+
+		.footer-row-center img:nth-child(1) {
+			width:14em;
+			height: 5em;
+			margin-right:10em;
+		}
+
+		.footer-row-center img:nth-child(2){
+			width:14em;
+			height: 5em;
+
+
 		}
 
 
 		.main-img img{
-			width:102px;
-			height: 102px;
+			width: 320px;
+			height: 320px;
 		}
 
 		.main-header-image {
-			width: 320px;
-			height: 255.89px;
 			background-image: url("../img/ubereats/Restaurant /photo3.png");
+			background-repeat: no-repeat;
+			background-size: 65em 60em;
+			height: 30em;
 		}
 
 		.restaurants-info {
-			width: 308px;
-			height: 180px;
-			margin-left: 8px;
-			margin-top: 131px;
+			width: 64em;
+			height: 10em;
+			margin-left: 1em;
+			margin-right: 0.5em;
+			margin-top: 25em;
+			height: 20em;
 
 			justify-content: flex-start;
 		}
@@ -446,7 +494,7 @@ footer p {
 		}
 
 		.restaurants-type p:nth-child(2){
-			font-size: 13px;
+			font-size: 2em;
 			line-height: normal;
 			margin-left: 0px;
 		}
@@ -471,7 +519,7 @@ footer p {
 			padding-top: 56px;
 			padding-left: 0px;
 			margin-bottom: 12px;
-			font-size: 22px;
+			font-size: 2.3em;
 			line-height: 34px;
 			text-align: center;
 		}
@@ -484,7 +532,6 @@ footer p {
 		}
 
 		.main-img {
-			height: 102px;
 			flex-basis: 100%;
 			margin-bottom: 16px;
 			border:none;
@@ -492,8 +539,8 @@ footer p {
 		}
 
 		.food-menu {
-			margin-left: 8px;
-			margin-right: 4px;
+			margin-left: 2em;
+			margin-right: 1em;
 
 		}
 
@@ -505,7 +552,7 @@ footer p {
 		}
 
 		.main-img-descr div p:nth-child(1){
-			font-size: 14px;
+			font-size: 2em;
 			line-height: 24px;
 			margin-bottom: 0px;
 
@@ -514,19 +561,27 @@ footer p {
 
 		.main-img-descr div p:nth-child(2){
 			font-weight: normal;
-			font-size: 13px;
+			font-size: 2em;
 			line-height: 21px;
+
 
 			margin: 0px 0px;
 
 			color: #626262;
 
+			margin-top: 1em;
+
+		}
+
+		.footer-info-img img {
+			width: 2em;
+			height: 2em;
 		}
 
 
 		.main-img-descr :nth-child(2) {
 			font-weight: 500;
-			font-size: 15px;
+			font-size: 2em;
 			line-height: 21px;
 			margin: 0px;
 			margin-bottom: 15px;
@@ -537,6 +592,28 @@ footer p {
 
 			color: #1D1D1D;
 		}
+
+		.footer-select {
+			border-radius: 0.1em;
+			border: 1em;
+			width: 12em;
+			height: 3em;
+
+			background-size: 1em 1em;
+		}
+
+		.footer-main {
+			font-size: 2em;
+		}
+
+		.footer-middle {
+			padding: 0 1.5em;
+		}
+
+		.footer-footer {
+			font-size: 2em;
+		}
+
 
 
 
@@ -568,6 +645,20 @@ footer p {
 		.header-right {
 			box-sizing: border-box;
 			flex-basis: 33.3333%;
+		}
+
+		.container-header {
+			height: 4em;
+		}
+
+		.header-logo img {
+			width: auto;
+		}
+
+		.header-button button {
+			width: 5em;
+			height: 3em;
+			font-size: 1em;
 		}
 
         .main-button {
@@ -640,8 +731,16 @@ footer p {
 			padding-right:203px;
 		}
 
+		.footer-main {
+			font-size: 1em;
+		}
+
 		.footer-select {
 			font-size: 13px;
+		}
+
+		.footer-middle {
+			padding: 0px;
 		}
 
 		.footer-footer {
@@ -653,13 +752,28 @@ footer p {
 			justify-content: space-between;
 		}
 
+		.footer-row-center img:nth-child(1) {
+
+			width: 9em;
+			height: 3em;
+		}
+
+		.footer-row-center img:nth-child(2) {
+			width: 9em;
+			height: 3em;
+		}
+
 		.footer-company {
 			display: flex;
 
 		}
 
 		.footer-row-center {
-			padding: 40px 0;
+			padding: 2em 0px;
+		}
+
+		.footer-footer {
+			font-size: 1em;
 		}
 
 		.food-menu {
@@ -674,10 +788,15 @@ footer p {
 			width: 768px;
 		}
 
+		.main-section {
+			margin-top: 0px;
+		}
+
 		.main-header-image{
 			width: 768px;
 			height: 364px;
 			background-image: url("../img/ubereats/Restaurant /d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.png");
+
 		}
 
 		.main-img {
@@ -736,6 +855,11 @@ footer p {
 			padding-top: 0px;
 			align-self: flex-start;
 		}
+
+		.main-header-image {
+			background-size: initial;
+		}
+
 
 		.main-img:hover {
 			background: lightgray;
@@ -798,6 +922,11 @@ footer p {
 			padding-left: 8px;
 			padding-right: 8px;
 			margin-top: 0px;
+		}
+
+		.footer-back {
+			position: relative;
+			bottom: 1em;
 		}
 
 
@@ -874,6 +1003,7 @@ footer p {
 			width: 1124px;
 			height: 364px;
 			background-image: url("../img/ubereats/Restaurant /main-img.png");
+
 		}
 
 		.food-menu {
@@ -975,5 +1105,10 @@ footer p {
 			margin-top: 31px;
 			padding-left: 81px;
 			padding-right: 87px;
+		}
+
+		.footer-button {
+			width: 6em;
+			height: 6em;
 		}
 	}

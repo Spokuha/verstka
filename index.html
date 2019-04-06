@@ -3,53 +3,210 @@
 <head>
 	<meta charset="utf-8">
 	<title>My first page</title>
-	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/style_restaurants.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/normalize.css@7.0.0/normalize.css">
 
 </head>
-<body>
-	<nav>
-			<a class="about-me" href ="#whoami">Who am I</a>
-	</nav>
-	<header>
-		<h1>This is html course</h1>
-		<p>And it is sooo goood</p>
+<body class="container">
+	<header class="container-header">
+
+		<div class="header-logo padding-left">
+			<img class="header-image" src="img/ubereats/stores/logo.svg">
+		</div>
+		<div class="header-map-button">
+			<button class="when-button" type="button">ASAP</button>
+			<p class="txt-button">to</p>
+			<button class="to-button" type="button">ul. Bolshaya Dmitrovka,22</button>
+		</div>
+		<div class="header-right">
+			<div class="header-button">
+				<button class="signin-button" type="button">Sign in</button>
+				<button class="register-button" type="button">Register</button>
+			</div>
+			<div class="header-basket">
+				<a><img src="img/ubereats/stores/basket.svg"></a>
+
+			</div>
+		</div>
+
+
+
 	</header>
 
-	<main class="container"> 
-		<article>
-			<section class="main-section" id="whoami">
-				<header>
-					<h2>Who am I</h2>
-				</header>
-				<p> My name is Pavel, i am frontend learner!!</p>
-				<p> I start to learn html and css in 2014, but it was boring. Now i found a good courses, that give you a lot of expirience in this direction </p>
-				<footer>
-					<p>something interesting</p>
-				</footer>
-			</section>
-		
-		
-
-			<section>
-				<header>
-					<h2> A lot of interesting in the future! </h2>
-				</header>
-				<p>I make this page so fast as i can. It was easy. I just want to start learn more interesting things right now. </p>
-				<footer>something inetresting</footer>
-			</section>
-			<div>
-				<ul>
-					<li>I am ready to start</li>
-					<li>Just do It!</li>
-					<li>Make you dream come true!</li>
-				</ul>
+	<div>
+		<div class="main-header-image">
+			<div class="restaurants-info">
+				<div class="restaurants-name">
+					<p>Трактир <q>Пушкина</q></p>
+				</div>
+				<div class="restaurants-type">
+					<p>₽₽₽ • Европейская</p>
+					<p>40 - 50 Min</p>
+				</div>
 			</div>
-			<aside>This is my first advertisement</aside>
-		</article>
+
+
+		</div>
+		<div class="main-container padding-left">
+			<a><p>Закуски </p></a>
+			<a><p>Салаты</p></a>
+			<a><p>Супы</p></a>
+			<a><p>Горячие блюда</p></a>
+			<a><p>Гарниры</p></a>
+			<a><p>Десерты</p></a>
+		</div>
+	</div>
+
+
+
+	<main class="main-section">
+		<div class="main-food-type">
+			<p class="food-type padding-left">Закуски</p>
+			<div class="food-type-border"></div>
+		</div>
+
+		<div class="food-menu">
+
+
+			<div class="main-img">
+				<img src="img/ubereats/Restaurant%20/photo-5.png">
+				<div class="main-img-descr">
+					<div>
+						<p>Сельдь на бородинском...</p>
+						<p>С яйцом и огурцом</p>
+					</div>
+
+					<p>240 ₽</p>
+				</div>
+
+			</div>
+
+
+			<div class="main-img">
+				<img src="img/ubereats/Restaurant%20/photo-4.png">
+				<div class="main-img-descr">
+					<div>
+						<p>Сельдь на бородинском...</p>
+						<p>С яйцом и огурцом</p>
+					</div>
+
+					<p>25 - 35 Min</p>
+				</div>
+
+			</div>
+
+			<div class="main-img">
+				<img src="img/ubereats/Restaurant%20/photo-3.png">
+				<div class="main-img-descr">
+					<div>
+						<p>Сельдь на бородинском...</p>
+						<p>С яйцом и огурцом</p>
+					</div>
+
+					<p>25 - 35 Min</p>
+				</div>
+
+			</div>
+
+			<div class="main-img">
+				<img src="img/ubereats/Restaurant%20/photo-2.png">
+				<div class="main-img-descr">
+					<div>
+						<p>Сельдь на бородинском...</p>
+						<p>С яйцом и огурцом</p>
+					</div>
+
+					<p>25 - 35 Min</p>
+				</div>
+
+			</div>
+
+			<div class="main-img">
+				<img src="img/ubereats/Restaurant%20/photo-1.png">
+				<div class="main-img-descr">
+					<div>
+						<p>Сельдь на бородинском...</p>
+						<p>С яйцом и огурцом</p>
+					</div>
+
+					<p>25 - 35 Min</p>
+				</div>
+
+			</div>
+
+			<div class="main-img">
+				<img src="img/ubereats/Restaurant%20/photo.png">
+				<div class="main-img-descr">
+					<div>
+						<p>Сельдь на бородинском...</p>
+
+					</div>
+
+					<p>25 - 35 Min</p>
+				</div>
+
+			</div>
+
+
+		</div>
 	</main>
-	<footer>
-		<p>This is footer. Information was created at <data>29.03.2019T02:18</data></p>
+	<footer class="footer">
+		<div class="footer-middle">
+			<header class="col-12 footer-logo">
+				<img src="img/ubereats/stores/white-logo.svg">
+			</header>
+			<main class="footer-main">
+				<div>
+					<select class="footer-select" id="language">
+						<option value="eng">English</option>
+						<option value="rus">Russian</option>
+					</select>
+					<div class="hash-tag">
+						<p><span style="color:#49A144">#</span>UberEats</p>
+					</div>
+					<div class="footer-info-img">
+						<img src="img/ubereats/ic/24/social/facebook.svg">
+						<img src="img/ubereats/ic/24/social/twitter.svg">
+						<img src="img/ubereats/ic/24/social/instagram.svg">
+					</div>
+				</div>
+
+
+				<div class="footer-info">
+					<a><p>About UberEats</p></a>
+					<a>	<p>Become a Delivery Partner</p></a>
+					<a>	<p>Become a Restaurant Partner</p></a>
+				</div>
+
+				<div class="footer-info">
+					<a>	<p>See all sites</p></a>
+					<a>	<p>Pricing</p></a>
+					<a>	<p>Help</p></a>
+					<a><p>FAQs</p></a>
+				</div>
+
+
+			</main>
+			<div class="footer-row-center">
+				<img style="margin-right:10px" src="img/ubereats/stores/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png">
+				<img style="margin-left:10px" src="img/ubereats/stores/en_badge_web_generic-cf6dad406f-2.png">
+			</div>
+			<footer class="footer-company">
+
+				<div class="footer-footer">
+					<p>&copy; 2017 Uber Technologies Inc.</p>
+					<p>Privacy</p>
+					<p>Terms</p>
+				</div>
+
+					<a class="footer-back" href="">
+						<button class="footer-button"> <img src="img/ubereats/stores/arrow.svg"> </button>
+					</a>
+
+			</footer>
+		</div>
+
 	</footer>
 </body>
 </html>
